@@ -1,0 +1,29 @@
+{
+  "name": "@nexssp/stack",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/stack.min.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "uglifyjs src/stack.js -c -m --warn --output dist/stack.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stack",
+    "error",
+    "tool",
+    "helper",
+    "safe"
+  ],
+  "engines": {
+    "node": ">=6.17.0"
+  },
+  "author": "Marcin Polak mapoart@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@nexssp/ansi": "^1.0.7"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.13.4"
+  }
+}
