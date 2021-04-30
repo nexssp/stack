@@ -1,8 +1,20 @@
 {
   "name": "@nexssp/stack",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Displays stack the nice way.",
   "main": "dist/stack.min.js",
+  "homepage": "https://nexss.com",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nexssp/stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nexssp/stack/issues",
+    "email": "mapoart@gmail.com"
+  },
   "scripts": {
     "prepublish": "npm run build",
     "build": "uglifyjs src/stack.js -c -m --warn --output dist/stack.min.js",
@@ -25,5 +37,15 @@
   },
   "devDependencies": {
     "uglify-js": "^3.13.4"
-  }
+  },
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.com/paypalme/mapoart"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/nexssp/cli?sponsor=1"
+    }
+  ]
 }
