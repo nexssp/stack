@@ -1,7 +1,7 @@
 {
   "name": "@nexssp/stack",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Displays stack the nice way.",
   "main": "dist/stack.min.js",
   "scripts": {
     "prepublish": "npm run build",
