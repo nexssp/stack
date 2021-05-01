@@ -1,8 +1,8 @@
 {
   "name": "@nexssp/stack",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Displays stack the nice way.",
-  "main": "dist/stack.min.js",
+  "main": "dist/stack.js",
   "homepage": "https://nexss.com",
   "files": [
     "dist/**/*"
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "prepublish": "npm run build",
-    "build": "uglifyjs src/stack.js -c -m --warn --output dist/stack.min.js",
+    "build": "nexssp-min",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -33,10 +33,8 @@
   "author": "Marcin Polak mapoart@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "@nexssp/ansi": "^1.0.7"
-  },
-  "devDependencies": {
-    "uglify-js": "^3.13.4"
+    "@nexssp/ansi": "^1.0.7",
+    "@nexssp/min": "^1.0.6"
   },
   "funding": [
     {

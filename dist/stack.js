@@ -1,0 +1,1 @@
+const{red:red,bold:bold,yellow:yellow,greyBG:greyBG}=require("@nexssp/ansi");module.exports.stack=(e,r=1,l=1)=>{let o=new Error(red(e)).stack,s=o.split("\n");s.splice(1,l),s[r]=greyBG(bold(yellow(s[r]))),o=s.join("\n"),console.error(o)};
