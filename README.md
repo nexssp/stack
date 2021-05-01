@@ -19,5 +19,5 @@ const { stack } = require("stack");
 
 const mystack = require("@nexssp/stack").stack;
 
-mystack("my message", 2); //Where 2 is which one number to colorize. Default is 1.
+mystack("my message", 2, 3); //Where 2 is which one number to colorize. Default is 1. 3 is cut line from the top, so it will cut 3 lines.
 ```
