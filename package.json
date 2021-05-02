@@ -1,6 +1,6 @@
 {
   "name": "@nexssp/stack",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Displays stack the nice way.",
   "main": "dist/stack.js",
   "homepage": "https://nexss.com",

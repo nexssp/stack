@@ -1,1 +1,1 @@
-const{red:red,bold:bold,yellow:yellow,greyBG:greyBG}=require("@nexssp/ansi");module.exports.stack=(e,r=1,l=1)=>{let o=new Error(red(e)).stack,s=o.split("\n");s.splice(1,l),s[r]=greyBG(bold(yellow(s[r]))),o=s.join("\n"),console.error(o)};
+const{red:red,bold:bold,yellow:yellow,blackBG:blackBG,greyBG:greyBG}=require("@nexssp/ansi");module.exports.stack=(l,e=1,o=1)=>{let r=new Error(blackBG(bold(red(l)))).stack,s=r.split("\n");s.splice(1,o),s[e]=blackBG(bold(yellow(s[e]))),r=s.join("\n"),console.error(r)};

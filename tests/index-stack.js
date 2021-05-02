@@ -1,3 +1,0 @@
-const { stack } = require("../");
-
-stack();
