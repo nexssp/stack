@@ -1,6 +1,6 @@
 {
   "name": "@nexssp/stack",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Displays stack the nice way.",
   "main": "dist/stack.js",
   "homepage": "https://nexss.com",
@@ -16,7 +16,7 @@
     "email": "mapoart@gmail.com"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "npx @nexssp/min@1.0.6",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
